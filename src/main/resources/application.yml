@@ -1,0 +1,3 @@
+logging:
+  level:
+    com.jvilaverde.beers: debug
