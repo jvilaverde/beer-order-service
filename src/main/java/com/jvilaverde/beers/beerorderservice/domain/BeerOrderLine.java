@@ -24,18 +24,21 @@ public class BeerOrderLine extends BaseEntity {
                          BeerOrder beerOrder,
                          UUID beerId,
                          Integer orderQuantity,
-                         Integer quantityAllocated) {
+                         Integer quantityAllocated,
+                         String upc) {
         super(id, version, createdDate, lastModifiedDate);
         this.beerOrder = beerOrder;
         this.beerId = beerId;
         this.orderQuantity = orderQuantity;
         this.quantityAllocated = quantityAllocated;
+        this.upc = upc;
     }
 
     @ManyToOne
     private BeerOrder beerOrder;
 
     private UUID beerId;
+    private String upc;
     private Integer orderQuantity = 0;
     private Integer quantityAllocated = 0;
 }

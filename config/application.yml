@@ -6,3 +6,7 @@ logging:
 
 server:
   port: ${PORT:8081}
+
+sfg:
+  brewery:
+    beer-service-host: http://localhost:8080
