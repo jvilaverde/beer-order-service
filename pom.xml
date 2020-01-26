@@ -11,4 +11,17 @@
 	<artifactId>beer-order-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<repositories>
+		<repository>
+			<id>jvilaverde-release</id>
+			<url>https://packagecloud.io/jvilaverde/release/maven2</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 </project>
