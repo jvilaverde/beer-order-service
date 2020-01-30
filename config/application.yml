@@ -10,3 +10,8 @@ server:
 sfg:
   brewery:
     beer-service-host: http://localhost:8080
+
+spring:
+  artemis: # defaults for this docker image - vromero/activemq-artemis
+    user: artemis
+      password: simetraehcapa
